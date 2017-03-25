@@ -18,9 +18,9 @@ namespace ConsoleApp1
 
         public int DepartmentID { get; set; }
 
-        //todo usuwamy niepotrzebne sk³adniki
+        //public virtual OnsiteCourse OnsiteCourse { get; set; }
         //public virtual OnlineCourse OnlineCourse { get; set; }
 
-        //public virtual OnsiteCourse OnsiteCourse { get; set; }
+        //todo usuwamy niepotrzebne sk³adniki
     }
 }
