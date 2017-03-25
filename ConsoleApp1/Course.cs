@@ -3,13 +3,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ConsoleApp1
 {
-
-
-
     [Table("Course")]
     public abstract class Course
     {
-        //todo !!  !! !! !! 
+        //todo !!  !! !! !!  usun¹æ
         // [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int CourseID { get; set; }
 
@@ -21,9 +18,9 @@ namespace ConsoleApp1
 
         public int DepartmentID { get; set; }
 
-        //public virtual OnsiteCourse OnsiteCourse { get; set; }
+        //todo usuwamy niepotrzebne sk³adniki
         //public virtual OnlineCourse OnlineCourse { get; set; }
 
-        //todo usuwamy niepotrzebne sk³adniki
+        //public virtual OnsiteCourse OnsiteCourse { get; set; }
     }
 }

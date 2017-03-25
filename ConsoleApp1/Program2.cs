@@ -24,6 +24,7 @@ namespace ConsoleApp1
                     .OfType<OnlineCourse>()
                     .Count());
                 context.SaveChanges();
+                Console.WriteLine("MW");
             }
         }
     }
