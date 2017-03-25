@@ -3,6 +3,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ConsoleApp1
 {
+
+
+
     [Table("Course")]
     public abstract class Course
     {
